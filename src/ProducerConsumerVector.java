@@ -1,6 +1,6 @@
 import java.util.List;
 import java.util.Vector;
-public class EX4 {
+public class ProducerConsumerVector {
     public static void main(String[] args) {
         List<String> vector = new Vector<String>();
         Producer producer = new Producer(vector);
